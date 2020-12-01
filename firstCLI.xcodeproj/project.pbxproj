@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE75F6162576590800CC2E7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75F6152576590800CC2E7F /* main.swift */; };
+		FE75F6162576590800CC2E7F /* greeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75F6152576590800CC2E7F /* greeter.swift */; };
+		FE75F62225765F2C00CC2E7F /* ceasar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75F62125765F2C00CC2E7F /* ceasar.swift */; };
+		FE75F62A257661CA00CC2E7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75F629257661CA00CC2E7F /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		FE75F6122576590800CC2E7F /* firstCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = firstCLI; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE75F6152576590800CC2E7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FE75F6152576590800CC2E7F /* greeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greeter.swift; sourceTree = "<group>"; };
+		FE75F62125765F2C00CC2E7F /* ceasar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceasar.swift; sourceTree = "<group>"; };
+		FE75F629257661CA00CC2E7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		FE75F6142576590800CC2E7F /* firstCLI */ = {
 			isa = PBXGroup;
 			children = (
-				FE75F6152576590800CC2E7F /* main.swift */,
+				FE75F6152576590800CC2E7F /* greeter.swift */,
+				FE75F62125765F2C00CC2E7F /* ceasar.swift */,
+				FE75F629257661CA00CC2E7F /* main.swift */,
 			);
 			path = firstCLI;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE75F6162576590800CC2E7F /* main.swift in Sources */,
+				FE75F62225765F2C00CC2E7F /* ceasar.swift in Sources */,
+				FE75F6162576590800CC2E7F /* greeter.swift in Sources */,
+				FE75F62A257661CA00CC2E7F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
