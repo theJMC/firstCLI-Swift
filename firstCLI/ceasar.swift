@@ -13,7 +13,7 @@ func ceasar() {
     let alphabet = Array("abcdefghijklmnopqrstuvwxyz")
     
     print("Please enter the string to put into the Ceasar Cipher: ")
-    let target = readLine()!
+    let target = readLine()!.lowercased()
     
     print("Please enter the shift amount: ")
     let shift = Int(readLine()!)
