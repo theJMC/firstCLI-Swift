@@ -12,9 +12,9 @@ class Person {
     var age = 0
     func description() -> String {
         if age == 1 {
-            return "Hello! I'm \(name), I'm a \(age) year old"
+            return "Hello \(name), You're \(age) year old right?"
         } else {
-            return "Hello! I'm \(name), I'm \(age) years old"
+            return "Hello \(name), You're \(age) years old right?"
         }
     }
     func greet() -> String {
