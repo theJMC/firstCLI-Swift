@@ -20,7 +20,7 @@ All it does it ask for an option of 0, 1, or 2, and then reacts accordingly call
 The Greeter Module contains one function, and a class with two functions on it. 
 
 The `greet()` function in the main program is the entrypoint to the module from the `main` module. It asks for the users name, and instantiates a `Person` object and assigns the name to the name field of the object. It also then asks for the users age, and stores it in the age field of the object as well.
-It then prints out the result of the [`description()`](#description) function.
+It then prints out the result of the `description()` function.
 
 The `Person` class has two fields `name` (Type: String) and `age` (Type: Int). It also has two functions the `description()` function and the `greet()` function. 
 
